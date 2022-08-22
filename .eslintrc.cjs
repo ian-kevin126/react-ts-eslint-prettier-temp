@@ -53,7 +53,7 @@ module.exports = {
     ]
   },
   // 忽略所有的样式文件
-  ignorePatterns: ['**/*.css'],
+  ignorePatterns: ['**/*.css', 'src/assets/*'],
   settings: {
     react: {
       version: 'detect'
